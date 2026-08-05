@@ -92,7 +92,7 @@ nav{background:var(--dark);display:flex;align-items:center;justify-content:space
 .btn-ghost{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);color:#fff;padding:13px 22px;border-radius:8px;font-size:13px;text-decoration:none;margin:4px}
 .breadcrumb{font-size:12px;color:var(--gray);padding:10px 5vw;background:var(--off);border-bottom:1px solid var(--lgray)}.breadcrumb a{color:var(--blue);text-decoration:none}
 .price-section{background:var(--dark);padding:52px 5vw}
-.price-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:720px;margin:0 auto}
+.price-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;max-width:1000px;margin:0 auto}
 .pc{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);border-radius:14px;padding:28px;text-align:center;transition:all 0.2s}
 .pc:hover{border-color:var(--blue);background:rgba(26,115,232,0.1)}
 .pc-badge{font-size:11px;font-weight:600;padding:3px 12px;border-radius:100px;display:inline-block;margin-bottom:14px}
@@ -198,7 +198,7 @@ footer p{font-size:12px;color:rgba(255,255,255,0.25);line-height:1.8}footer a{co
     </div>
     <div class="pc" style="border-color:#16a34a">
       <span class="pc-badge" style="background:#f0fdf4;color:#16a34a">High Strength</span>
-      <div class="pc-price" style="color:#a16207">$20</div>
+      <div class="pc-price" style="color:#a16207">$49</div>
       <div class="pc-was">US pharmacy: $200–400+</div>
       <div class="pc-name">Monobenzone 40% Cream</div>
       <div class="pc-desc">Double strength · 30g tube · Faster depigmentation results</div>
@@ -208,7 +208,49 @@ footer p{font-size:12px;color:rgba(255,255,255,0.25);line-height:1.8}footer a{co
         <li>✅ UPS Express to USA 5-8 days</li>
         <li>✅ Certificate of Analysis included</li>
       </ul>
-      <a href="https://wa.me/923174900576?text=Hi+I+want+to+buy+Monobenzone+Cream+for+USA+delivery&text=Hi+I+want+Monobenzone+40%25+shipped+to+USA" target="_blank" class="order-btn" style="background:#16a34a"><svg width="16" height="16" fill="#fff" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> &nbsp;Order 40% — $20</a>
+      <a href="https://wa.me/923174900576?text=Hi+I+want+to+buy+Monobenzone+Cream+for+USA+delivery&text=Hi+I+want+Monobenzone+40%25+shipped+to+USA" target="_blank" class="order-btn" style="background:#16a34a"><svg width="16" height="16" fill="#fff" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> &nbsp;Order 40% — $49</a>
+    </div>
+    <div class="pc" style="border-color:#7c3aed">
+      <span class="pc-badge" style="background:#f5f3ff;color:#7c3aed">Maximum Strength</span>
+      <div class="pc-price" style="color:#7c3aed">$69</div>
+      <div class="pc-was">US pharmacy: $280–450+</div>
+      <div class="pc-name">Monobenzone 60% Cream</div>
+      <div class="pc-desc">Maximum concentration · 100g tube · Advanced cases</div>
+      <ul class="pc-features">
+        <li>✅ Highest concentration available</li>
+        <li>✅ For advanced/resistant cases</li>
+        <li>✅ UPS Express to USA 5-8 days</li>
+        <li>✅ Certificate of Analysis included</li>
+      </ul>
+      <a href="https://wa.me/923174900576?text=Hi+I+want+Monobenzone+60%25+shipped+to+USA" target="_blank" class="order-btn" style="background:#7c3aed"><svg width="16" height="16" fill="#fff" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> &nbsp;Order 60% — $69</a>
+    </div>
+    <div class="pc" style="border-color:#b45309">
+      <span class="pc-badge" style="background:#fffbeb;color:#b45309">Hydroquinone</span>
+      <div class="pc-price" style="color:#b45309">$5</div>
+      <div class="pc-was">US pharmacy: $25–50+</div>
+      <div class="pc-name">Hydroquinone Cream USP</div>
+      <div class="pc-desc">Up to 10% · 15g · For melasma &amp; hyperpigmentation</div>
+      <ul class="pc-features">
+        <li>✅ Pharmaceutical USP grade</li>
+        <li>✅ For melasma &amp; age spots</li>
+        <li>✅ UPS Express to USA 5-8 days</li>
+        <li>✅ Certificate of Analysis included</li>
+      </ul>
+      <a href="https://wa.me/923174900576?text=Hi+I+want+Hydroquinone+Cream+shipped+to+USA" target="_blank" class="order-btn" style="background:#b45309"><svg width="16" height="16" fill="#fff" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> &nbsp;Enquire — $5</a>
+    </div>
+    <div class="pc" style="border-color:#dc2626">
+      <span class="pc-badge" style="background:#fef2f2;color:#dc2626">Retin-A</span>
+      <div class="pc-price" style="color:#dc2626">$5</div>
+      <div class="pc-was">US pharmacy: $35–60+</div>
+      <div class="pc-name">Tretinoin 0.1% Cream</div>
+      <div class="pc-desc">Anti-aging &amp; acne · 15g tube · USP grade</div>
+      <ul class="pc-features">
+        <li>✅ 0.1% highest prescribed strength</li>
+        <li>✅ Anti-aging and acne treatment</li>
+        <li>✅ UPS Express to USA 5-8 days</li>
+        <li>✅ Certificate of Analysis included</li>
+      </ul>
+      <a href="https://wa.me/923174900576?text=Hi+I+want+Tretinoin+Cream+shipped+to+USA" target="_blank" class="order-btn" style="background:#dc2626"><svg width="16" height="16" fill="#fff" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> &nbsp;Order Now — $5</a>
     </div>
   </div>
 </div>

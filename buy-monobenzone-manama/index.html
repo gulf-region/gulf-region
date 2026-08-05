@@ -99,9 +99,29 @@ footer p{font-size:12px;color:rgba(255,255,255,0.25);line-height:1.8}footer a{co
 
   <div class="price-box">
     <h3>Monobenzone Cream 20% — Manama Pricing</h3>
-    <div class="price-row">
-      <div class="pc"><span class="pn">$12</span><span class="pl">Monobenzone 20% · 30g tube<br>Ships to Manama in 4-6 days</span></div>
-      <div class="pc"><span class="pn">$55</span><span class="pl">Monobenzone 40% · 100g tube<br>High strength · 4-6 days</span></div>
+    <div style="text-align:center;margin-bottom:14px">
+      <span style="font-size:11.5px;color:rgba(255,255,255,0.4)">💱 Currency: </span>
+      <select id="curr-sel" onchange="updatePrices(this.value)" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:#fff;padding:3px 8px;border-radius:5px;font-size:11.5px">
+        <option value="USD">🌐 USD</option>
+        <option value="SAR">🇸🇦 SAR</option>
+        <option value="AED">🇦🇪 AED</option>
+        <option value="QAR">🇶🇦 QAR</option>
+        <option value="KWD">🇰🇼 KWD</option>
+        <option value="OMR">🇴🇲 OMR</option>
+        <option value="BHD">🇧🇭 BHD</option>
+        <option value="GBP">🇬🇧 GBP</option>
+        <option value="EUR">🇪🇺 EUR</option>
+        <option value="PKR">🇵🇰 PKR</option>
+        <option value="CAD">🇨🇦 CAD</option>
+        <option value="AUD">🇦🇺 AUD</option>
+      </select>
+    </div>
+    <div class="price-row" id="priceRow">
+      <div class="pc"><span class="pn" data-usd="12">$12</span><span class="pl">Monobenzone 20% · 30g tube<br>Ships in 3-7 days</span></div>
+      <div class="pc"><span class="pn" data-usd="49">$49</span><span class="pl">Monobenzone 40% · 100g tube<br>High strength · 3-7 days</span></div>
+      <div class="pc"><span class="pn" data-usd="69">$69</span><span class="pl">Monobenzone 60% · 100g tube<br>Maximum strength · 3-7 days</span></div>
+      <div class="pc"><span class="pn" data-usd="5">$5</span><span class="pl">Hydroquinone · Up to 10%<br>15g · 3-7 days</span></div>
+      <div class="pc"><span class="pn" data-usd="5">$5</span><span class="pl">Tretinoin 0.1%<br>15g · 3-7 days</span></div>
     </div>
     <a href="https://wa.me/923174900576?text=Hi+I+want+Monobenzone+Cream+delivered+to+Manama+Bahrain" target="_blank" class="btn-wa"><svg width="15" height="15" fill="#fff" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg> WhatsApp to Order</a>
   </div>
@@ -137,9 +157,9 @@ footer p{font-size:12px;color:rgba(255,255,255,0.25);line-height:1.8}footer a{co
   <h2>Frequently Asked Questions — Manama</h2>
   <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How long does Monobenzone Cream take to arrive in Manama?</div><div class="faq-a">Monobenzone Cream 20% Iranian Brand is delivered to Manama, Bahrain in 4-6 business days via FedEx International. We dispatch within 1–2 business days of order confirmation. You will receive a tracking number via WhatsApp immediately after dispatch.</div></div>
   <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Is Monobenzone Cream available in Manama pharmacies?</div><div class="faq-a">Monobenzone cream is not commonly stocked in local pharmacies in Manama due to its specialized nature and prescription status. gulfdermacare.com provides direct international shipping to Manama — often faster, more affordable, and more convenient than attempting to source locally.</div></div>
-  <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What is the price of Monobenzone Cream 20% in Manama?</div><div class="faq-a">Monobenzone Cream 20% Iranian Brand (Monozan® by Behvazan Pharmaceutical Co.) is priced at $12 per 30g tube including shipping to Manama, Bahrain. Monobenzone 40% (100g) is $55. Bulk pricing is available for clinics — contact us via WhatsApp.</div></div>
+  <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What is the price of Monobenzone Cream 20% in Manama?</div><div class="faq-a">Monobenzone Cream 20% Iranian Brand (Monozan® by Behvazan Pharmaceutical Co.) is priced at $12 per 30g tube including shipping to Manama, Bahrain. Monobenzone 40% (100g) is $49. Bulk pricing is available for clinics — contact us via WhatsApp.</div></div>
   <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Is Monobenzone Cream 20% Iranian Brand genuine?</div><div class="faq-a">Yes. We supply original Monozan® by Behvazan Pharmaceutical Co., Rasht, Iran. Every order includes the original manufacturer packaging with batch number, Certificate of Analysis, and expiry date. You can verify the batch number with us via WhatsApp +923174900576.</div></div>
-  <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Can I order Monobenzone 40% or 60% to Manama?</div><div class="faq-a">Yes. We ship Monobenzone 20% (30g, $12), 40% (100g, $55) and 60% (100g, $75) to Manama, Bahrain via FedEx International in 4-6 business days. Contact us on WhatsApp for your required concentration and quantity.</div></div>
+  <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Can I order Monobenzone 40% or 60% to Manama?</div><div class="faq-a">Yes. We ship Monobenzone 20% (30g, $12), 40% (100g, $49) and 60% (100g, $69) to Manama, Bahrain via FedEx International in 4-6 business days. Contact us on WhatsApp for your required concentration and quantity.</div></div>
 
   <div style="background:var(--off);border:1.5px solid var(--lgray);border-radius:10px;padding:18px 20px;margin:28px 0">
     <p style="font-size:12.5px;font-weight:700;color:var(--dark);margin-bottom:10px;text-transform:uppercase;letter-spacing:1px">🔗 Related Pages</p>
@@ -168,5 +188,11 @@ footer p{font-size:12px;color:rgba(255,255,255,0.25);line-height:1.8}footer a{co
 </div>
 </footer>
 <div class="wafab"><a href="https://wa.me/923174900576" target="_blank"><svg viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a></div>
+<script>
+var R={USD:{s:'$',r:1},SAR:{s:'SAR ',r:3.75},AED:{s:'AED ',r:3.67},QAR:{s:'QAR ',r:3.64},KWD:{s:'KWD ',r:0.31},OMR:{s:'OMR ',r:0.38},BHD:{s:'BHD ',r:0.38},GBP:{s:'£',r:0.79},EUR:{s:'€',r:0.92},PKR:{s:'PKR ',r:278},CAD:{s:'CA$',r:1.36},AUD:{s:'A$',r:1.52}};
+var G={SA:'SAR',AE:'AED',QA:'QAR',KW:'KWD',OM:'OMR',BH:'BHD',GB:'GBP',DE:'EUR',FR:'EUR',NL:'EUR',IT:'EUR',ES:'EUR',PK:'PKR',CA:'CAD',AU:'AUD',US:'USD'};
+function updatePrices(cur){var r=R[cur]||R.USD;document.querySelectorAll('.pn[data-usd]').forEach(function(el){var v=parseFloat(el.getAttribute('data-usd'))*r.r;el.textContent=['KWD','BHD','OMR'].includes(cur)?r.s+v.toFixed(3):v>=100?r.s+Math.round(v):r.s+v.toFixed(2);});var s=document.getElementById('curr-sel');if(s)s.value=cur;}
+window.addEventListener('DOMContentLoaded',function(){var c=sessionStorage.getItem('gdc_currency');if(c&&R[c]){updatePrices(c);return;}fetch('https://ipapi.co/json/').then(function(r){return r.json();}).then(function(d){var cur=G[d.country_code]||'USD';sessionStorage.setItem('gdc_currency',cur);updatePrices(cur);}).catch(function(){});});
+</script>
 </body>
 </html>
