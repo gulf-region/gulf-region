@@ -217,6 +217,18 @@ footer a:hover{color:var(--blue)}
   .price-row{flex-direction:column;align-items:center}
 }
 </style>
+<meta property="og:image" content="https://gulfdermacare.com/favicon-96.png">
+<meta property="og:image:alt" content="GulfDermaCare monobenzone cream">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://gulfdermacare.com/favicon-96.png">
+<meta property="og:type" content="website">
+<link rel="alternate" hreflang="en" href="https://gulfdermacare.com/buy-monobenzone-australia/">
+<link rel="alternate" hreflang="x-default" href="https://gulfdermacare.com/buy-monobenzone-australia/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://gulfdermacare.com/"}, {"@type": "ListItem", "position": 2, "name": "Buy Monobenzone Cream Australia", "item": "https://gulfdermacare.com/buy-monobenzone-australia/"}]}</script>
+<style>/* preserve visual styling after heading-level correction */
+.price-box .gdc-hlvl-3{color:#fff;font-size:17px;margin-bottom:16px}
+.rel-card .gdc-hlvl-4{font-size:13px;font-weight:600;color:var(--dark);margin-bottom:4px}
+</style>
 </head>
 <body>
 <nav>
@@ -251,7 +263,7 @@ footer a:hover{color:var(--blue)}
 <div class="content">
 
   <div class="price-box">
-    <h3>💊 Monobenzone Cream — Australia Pricing</h3>
+    <h2 class="gdc-hlvl-3">💊 Monobenzone Cream — Australia Pricing</h2>
     <div style="text-align:center;margin-bottom:14px">
       <span style="font-size:11.5px;color:rgba(255,255,255,0.4)">💱 Currency: </span>
       <select id="curr-sel" onchange="updatePrices(this.value)" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:#fff;padding:3px 8px;border-radius:5px;font-size:11.5px">
@@ -310,7 +322,7 @@ footer a:hover{color:var(--blue)}
 
   <h2 class="sec-h">🔗 Related Pages</h2>
   <div class="related-grid">
-    <a href="/faq.html" class="rel-card"><h4>📚 Full FAQ</h4><p>All questions about monobenzone, Benoquin and vitiligo</p></a>
+    <a href="/faq.html" class="rel-card"><h3 class="gdc-hlvl-4">📚 Full FAQ</h3><p>All questions about monobenzone, Benoquin and vitiligo</p></a>
     <a href="/blog/" class="rel-card"><h4>📝 Blog</h4><p>Medical articles about monobenzone and vitiligo treatment</p></a>
     <a href="/#products" class="rel-card"><h4>🛒 Products</h4><p>View monobenzone 20% and 40% cream</p></a>
   </div>
@@ -341,5 +353,5 @@ var G={SA:'SAR',AE:'AED',QA:'QAR',KW:'KWD',OM:'OMR',BH:'BHD',GB:'GBP',DE:'EUR',F
 function updatePrices(cur){var r=R[cur]||R.USD;document.querySelectorAll('.pn[data-usd]').forEach(function(el){var v=parseFloat(el.getAttribute('data-usd'))*r.r;el.textContent=['KWD','BHD','OMR'].includes(cur)?r.s+v.toFixed(3):v>=100?r.s+Math.round(v):r.s+v.toFixed(2);});var s=document.getElementById('curr-sel');if(s)s.value=cur;}
 window.addEventListener('DOMContentLoaded',function(){var c=sessionStorage.getItem('gdc_currency');if(c&&R[c]){updatePrices(c);return;}fetch('https://ipapi.co/json/').then(function(r){return r.json();}).then(function(d){var cur=G[d.country_code]||'USD';sessionStorage.setItem('gdc_currency',cur);updatePrices(cur);}).catch(function(){});});
 </script>
-</body>
+<style>.gdc-more{background:#f8f9fa;border-top:2px solid #e5e7eb;padding:28px 5vw}.gdc-more h2{font-size:16px;margin-bottom:12px;color:#1a1a1a}.gdc-more ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;padding:0}.gdc-more a{font-size:12.5px;background:#fef9c3;color:#a16207;padding:6px 12px;border-radius:100px;text-decoration:none;font-weight:500;display:inline-block}.gdc-more a:hover{background:#fde68a}</style><nav class="gdc-more" aria-label="More pages"><h2>Explore more guides &amp; delivery locations</h2><ul><li><a href="/buy-monobenzone-canada/">Buy Monobenzone Cream Canada</a></li><li><a href="/buy-monobenzone-europe/">Buy Monobenzone Cream Europe</a></li><li><a href="/buy-monobenzone-usa/">Buy Monobenzone Cream USA</a></li><li><a href="/mbeh-cream/">MBEH Cream – Monobenzyl Ether Hydroquinone</a></li><li><a href="/monozan/">Monozan Cream</a></li><li><a href="/terms-conditions/">Terms & Conditions</a></li></ul></nav></body>
 </html>

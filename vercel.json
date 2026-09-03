@@ -1,9 +1,69 @@
 {
   "redirects": [
-    {"source": "/what-is-monobenzone", "destination": "/blog/what-is-monobenzone/", "permanent": true},
-    {"source": "/products/:slug", "destination": "/", "permanent": true},
-    {"source": "/cdn", "destination": "/", "permanent": true},
-    {"source": "/%24%7Bt%7D", "destination": "/", "permanent": true},
-    {"source": "/blogs/:slug", "destination": "/blog/", "permanent": true}
+    {
+      "source": "/what-is-monobenzone",
+      "destination": "/blog/what-is-monobenzone/",
+      "permanent": true
+    },
+    {
+      "source": "/products/:slug",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/cdn",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/%24%7Bt%7D",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/:slug",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/depigmentation-therapy-vitiligo-guide",
+      "destination": "/blog/depigmentation-therapy-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/depigmentation-therapy-vitiligo-guide/",
+      "destination": "/blog/depigmentation-therapy-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-use-monobenzone-correctly",
+      "destination": "/blog/how-to-use-monobenzone-cream-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-use-monobenzone-correctly/",
+      "destination": "/blog/how-to-use-monobenzone-cream-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-vs-hydroquinone-comparison",
+      "destination": "/blog/monobenzone-vs-hydroquinone-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-vs-hydroquinone-comparison/",
+      "destination": "/blog/monobenzone-vs-hydroquinone-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vitiligo-treatment-options-guide",
+      "destination": "/blog/vitiligo-treatment-options/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vitiligo-treatment-options-guide/",
+      "destination": "/blog/vitiligo-treatment-options/",
+      "permanent": true
+    }
   ]
 }
