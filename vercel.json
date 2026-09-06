@@ -1,6 +1,126 @@
 {
   "redirects": [
     {
+      "source": "/blog/monobenzone-before-after-results",
+      "destination": "/blog/monobenzone-before-after-results-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-before-after-results/",
+      "destination": "/blog/monobenzone-before-after-results-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-before-and-after",
+      "destination": "/blog/monobenzone-before-after-results-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-before-and-after/",
+      "destination": "/blog/monobenzone-before-after-results-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-before-and-after-guide",
+      "destination": "/blog/monobenzone-before-after-results-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-before-and-after-guide/",
+      "destination": "/blog/monobenzone-before-after-results-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-side-effects",
+      "destination": "/blog/monobenzone-side-effects-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-side-effects/",
+      "destination": "/blog/monobenzone-side-effects-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-side-effects-guide",
+      "destination": "/blog/monobenzone-side-effects-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-side-effects-guide/",
+      "destination": "/blog/monobenzone-side-effects-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-vs-hydroquinone",
+      "destination": "/blog/monobenzone-vs-hydroquinone-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-vs-hydroquinone/",
+      "destination": "/blog/monobenzone-vs-hydroquinone-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-vs-hydroquinone-guide",
+      "destination": "/blog/monobenzone-vs-hydroquinone-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-vs-hydroquinone-guide/",
+      "destination": "/blog/monobenzone-vs-hydroquinone-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-use-monobenzone-cream",
+      "destination": "/blog/how-to-use-monobenzone-cream-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-use-monobenzone-cream/",
+      "destination": "/blog/how-to-use-monobenzone-cream-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-monobenzone",
+      "destination": "/blog/what-is-monobenzone-cream/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-monobenzone/",
+      "destination": "/blog/what-is-monobenzone-cream/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-long-does-monobenzone-take",
+      "destination": "/blog/how-long-monobenzone-work/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-long-does-monobenzone-take/",
+      "destination": "/blog/how-long-monobenzone-work/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-vs-benoquin-comparison",
+      "destination": "/blog/monobenzone-vs-benoquin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-vs-benoquin-comparison/",
+      "destination": "/blog/monobenzone-vs-benoquin/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-for-vitiligo-guide",
+      "destination": "/blog/monobenzone-for-vitiligo-treatment/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/monobenzone-for-vitiligo-guide/",
+      "destination": "/blog/monobenzone-for-vitiligo-treatment/",
+      "permanent": true
+    },
+    {
       "source": "/what-is-monobenzone",
       "destination": "/blog/what-is-monobenzone/",
       "permanent": true
@@ -64,6 +184,58 @@
       "source": "/blog/vitiligo-treatment-options-guide/",
       "destination": "/blog/vitiligo-treatment-options/",
       "permanent": true
+    }
+  ],
+  "trailingSlash": true,
+  "cleanUrls": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(jpg|jpeg|png|webp|svg|ico|woff2|css|js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
     }
   ]
 }
