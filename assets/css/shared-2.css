@@ -1,0 +1,4 @@
+/* preserve visual styling after heading-level correction */
+.toc .gdc-hlvl-3{font-size:13px;font-weight:700;color:var(--dark);margin-bottom:10px;text-transform:uppercase;letter-spacing:1px}
+.gdc-hlvl-3{font-size:16px;font-weight:700;color:var(--dark);margin:22px 0 8px}
+.cta .gdc-hlvl-3{font-size:20px;font-weight:700;color:#1a1a1a;margin-bottom:8px}

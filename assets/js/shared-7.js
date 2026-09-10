@@ -1,0 +1,1 @@
+function toggle(el){var item=el.parentElement;var was=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!was)item.classList.add('open');}

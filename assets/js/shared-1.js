@@ -1,0 +1,5 @@
+
+var R={USD:{s:'$',r:1},SAR:{s:'SAR ',r:3.75},AED:{s:'AED ',r:3.67},QAR:{s:'QAR ',r:3.64},KWD:{s:'KWD ',r:0.31},OMR:{s:'OMR ',r:0.38},BHD:{s:'BHD ',r:0.38},GBP:{s:'£',r:0.79},EUR:{s:'€',r:0.92},PKR:{s:'PKR ',r:278},CAD:{s:'CA$',r:1.36},AUD:{s:'A$',r:1.52}};
+var G={SA:'SAR',AE:'AED',QA:'QAR',KW:'KWD',OM:'OMR',BH:'BHD',GB:'GBP',DE:'EUR',FR:'EUR',NL:'EUR',IT:'EUR',ES:'EUR',PK:'PKR',CA:'CAD',AU:'AUD',US:'USD'};
+function updatePrices(cur){var r=R[cur]||R.USD;document.querySelectorAll('.pn[data-usd]').forEach(function(el){var v=parseFloat(el.getAttribute('data-usd'))*r.r;el.textContent=['KWD','BHD','OMR'].includes(cur)?r.s+v.toFixed(3):v>=100?r.s+Math.round(v):r.s+v.toFixed(2);});var s=document.getElementById('curr-sel');if(s)s.value=cur;}
+window.addEventListener('DOMContentLoaded',function(){var c=sessionStorage.getItem('gdc_currency');if(c&&R[c]){updatePrices(c);return;}fetch('https://ipapi.co/json/').then(function(r){return r.json();}).then(function(d){var cur=G[d.country_code]||'USD';sessionStorage.setItem('gdc_currency',cur);updatePrices(cur);}).catch(function(){});});

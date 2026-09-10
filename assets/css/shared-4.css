@@ -1,0 +1,4 @@
+/* preserve visual styling after heading-level correction */
+.gdc-hlvl-3{font-size:15px;font-weight:600;color:var(--dark);margin:20px 0 8px}
+.step .gdc-hlvl-4{font-size:13.5px;font-weight:600;color:var(--dark);margin-bottom:3px}
+.price-box .gdc-hlvl-3{color:#fff;font-size:17px;margin-bottom:16px}

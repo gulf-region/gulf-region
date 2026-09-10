@@ -1,0 +1,43 @@
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--blue:#ca8a04;--blue-d:#1557b0;--blue-p:#fef9c3;--dark:#1a1a1a;--mid:#374151;--gray:#6b7280;--lgray:#e5e7eb;--white:#fff;--off:#f8f9fa;--orange:#f97316}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',sans-serif;background:var(--white);color:var(--dark);overflow-x:hidden}
+nav{background:var(--dark);display:flex;align-items:center;justify-content:space-between;padding:0 5vw;height:64px;position:sticky;top:0;z-index:100;border-bottom:2px solid var(--blue)}
+.nl{display:flex;align-items:center;gap:10px;text-decoration:none}
+.ni{width:34px;height:34px;background:var(--blue);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;color:#fff}
+.nm{font-size:14px;font-weight:600;color:#fff}
+.nlinks{display:flex;list-style:none}
+.nlinks a{color:rgba(255,255,255,0.6);text-decoration:none;font-size:12.5px;padding:0 13px;height:64px;display:flex;align-items:center;border-bottom:2px solid transparent;transition:all 0.2s}
+.nlinks a:hover{color:#fff;border-bottom-color:var(--blue)}
+.nwa{display:inline-flex;align-items:center;gap:6px;background:#25D366;color:#fff;padding:9px 16px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:8px}
+.burger span{width:22px;height:2px;background:#fff;border-radius:2px;display:block}
+.mm{display:none;position:fixed;top:64px;left:0;right:0;background:var(--dark);border-top:1px solid rgba(255,255,255,0.1);z-index:99}
+.mm a{display:block;padding:13px 5vw;color:rgba(255,255,255,0.7);text-decoration:none;font-size:13.5px;border-bottom:1px solid rgba(255,255,255,0.07)}
+.mm.open{display:block}
+.breadcrumb{font-size:12px;color:var(--gray);padding:12px 5vw;background:var(--off);border-bottom:1px solid var(--lgray)}
+.breadcrumb a{color:var(--blue);text-decoration:none}
+.article{max-width:800px;margin:0 auto;padding:48px 5vw}
+.art-header{margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--lgray)}
+.art-tag{font-size:11px;background:var(--blue-p);color:var(--blue);padding:3px 12px;border-radius:100px;font-weight:500;display:inline-block;margin-bottom:12px}
+h1{font-size:clamp(20px,3.5vw,32px);font-weight:700;color:var(--dark);line-height:1.2;margin-bottom:10px}
+.art-meta{font-size:12px;color:var(--gray)}
+.sec-h{font-size:18px;font-weight:700;color:var(--dark);margin:28px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--blue)}
+p{font-size:14px;color:var(--mid);line-height:1.9;margin-bottom:12px}
+p strong{color:var(--dark);font-weight:600}
+ul,ol{padding-left:20px;font-size:14px;color:var(--mid);line-height:1.9;margin-bottom:12px}
+a{color:var(--blue)}
+.info{background:var(--blue-p);border:1px solid #bfdbfe;border-left:4px solid var(--blue);border-radius:0 8px 8px 0;padding:14px 16px;margin:14px 0;font-size:13px;color:#1e40af;line-height:1.7}
+.warn{background:#fffbeb;border:1px solid #fcd34d;border-left:4px solid var(--orange);border-radius:0 8px 8px 0;padding:14px 16px;margin:14px 0;font-size:13px;color:#92400e;line-height:1.7}
+.cta-box{background:var(--dark);border-radius:12px;padding:28px;text-align:center;margin:32px 0}
+.cta-box h3{color:#fff;font-size:18px;margin-bottom:8px}
+.cta-box p{color:rgba(255,255,255,0.6);font-size:13.5px;margin-bottom:18px}
+.btn-wa{display:inline-flex;align-items:center;gap:8px;background:#25D366;color:#fff;padding:12px 22px;border-radius:7px;font-size:13px;font-weight:600;text-decoration:none}
+footer{background:#080f1a;padding:28px 5vw;text-align:center}
+footer p{font-size:12px;color:rgba(255,255,255,0.25);line-height:1.8}
+footer a{color:rgba(255,255,255,0.4);text-decoration:none}
+.wafab{position:fixed;bottom:24px;right:24px;z-index:999}
+.wafab a{width:52px;height:52px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.5);text-decoration:none}
+.wafab svg{width:26px;height:26px;fill:#fff}
+@media(max-width:768px){.nlinks{display:none}.burger{display:flex}.article{padding:36px 4vw}}
