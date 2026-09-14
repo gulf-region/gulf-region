@@ -1,23 +1,4 @@
 User-agent: *
 Allow: /
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: AhrefsBot
-Allow: /
-
-User-agent: SemrushBot
-Allow: /
-
-# Block low-value scrapers
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
 Sitemap: https://www.gulfdermacare.com/sitemap.xml
