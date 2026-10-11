@@ -4,7 +4,7 @@
 body{font-family:'Poppins',sans-serif;background:#fff;color:var(--dark)}
 nav{background:var(--dark);display:flex;align-items:center;justify-content:space-between;padding:0 5vw;height:64px;position:sticky;top:0;z-index:100;border-bottom:2px solid var(--blue)}
 .nl{display:flex;align-items:center;gap:10px;text-decoration:none}.ni{width:34px;height:34px;background:var(--blue);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;color:#fff}.nm{font-size:14px;font-weight:600;color:#fff}
-.nwa{display:inline-flex;align-items:center;gap:6px;background:#25D366;color:#fff;padding:9px 16px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none}
+.nwa{display:inline-flex;align-items:center;gap:6px;background:#25D366;color:#fff;padding:9px 16px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none}.nem{display:inline-flex;align-items:center;gap:6px;background:transparent;color:#1a1a1a;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:500;text-decoration:none;border:1px solid #d1d5db;margin-top:4px}.nem:hover{background:#f3f4f6}
 .content{max-width:800px;margin:0 auto;padding:52px 5vw}
 h1{font-size:28px;font-weight:700;color:var(--dark);margin-bottom:8px}
 .date{font-size:13px;color:var(--gray);margin-bottom:36px}

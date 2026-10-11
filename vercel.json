@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/faq.html",
+      "destination": "/faq/",
+      "permanent": true
+    },
+    {
       "source": "/blog/monobenzone-before-after-results",
       "destination": "/blog/monobenzone-before-after-results-guide/",
       "permanent": true
